@@ -8,7 +8,8 @@ export const Reducer = (state = init, action = {}) => {
     case 'CHANGE_USERNAME':
       return {
         ...state,
-        username: "Jubayer Juhan",
+        username: "jubayeruhan",
+        password: "iamjhan"
       }
     default:
       return state;
