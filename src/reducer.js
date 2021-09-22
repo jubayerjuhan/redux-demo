@@ -8,7 +8,7 @@ export const Reducer = (state = init, action = {}) => {
     case 'CHANGE_USERNAME':
       return {
         ...state,
-        username: action.payload,
+        username: "Jubayer Juhan",
       }
     default:
       return state;
